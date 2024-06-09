@@ -1,0 +1,85 @@
+*{
+    scroll-behavior:smooth;
+  }
+  body{
+    width:100vw;
+    height:100vh;
+    background-color:#0101;
+  }
+  #welcome-section{
+    width:100vw;
+    position:sticky;
+    top:0;
+    border:1px solid black;
+    font-size:2rem;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color:black;
+  }
+  #navbar{
+    text-align:center;
+  }
+  .nav-link{
+    text-decoration:underline silver;
+    color:silver;
+    margin-right:10vw;
+  }
+  .nav-link:hover{
+    color:black;
+  }
+  #welcome{
+    color:white;
+    text-align:center;
+  }
+  #about{
+    margin-top:5vh;
+    background-color:black;
+  }
+  #picture{
+    border:1px solid black;
+    width:30vw;
+    height:30vw;
+    border-radius:4vh;
+    background-color:white;
+    margin-left:5vw;
+  }
+  #myimage{
+    width:30vw;
+    height:30vw;
+    border-radius:4vh;
+    object-fit:cover;
+  }
+  
+  #info{
+    font-family:sans-serif;
+    color:white;
+    padding-left:5vw;
+    padding-right:5vw;
+    padding-bottom:5vh;
+    font-size:1.5rem;
+  }
+  #projects{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+  }
+  #projects > p,#projects > a{
+    font-family:sans-serif;
+    font-size:1.3rem;
+  }
+  #sdiv{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+  }
+  #linkedin , #github{
+    width:15vw;
+    height:15vw;
+    margin-right:5vw;
+  }
+  ul{
+    font-weight:bold;
+    font-size:1.5rem;
+  }
+  
