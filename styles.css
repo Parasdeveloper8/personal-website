@@ -113,8 +113,15 @@
   .green{
     color:rgb(41, 11, 207);
   }
+  .project-tile{
+    display:flex;
+    height:25vh;
+    width:100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .i{
-    width:40vw;
-    height:30vw;
+    width:20vw;
+    height:20vw;
   }
   
