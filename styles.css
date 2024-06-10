@@ -17,9 +17,14 @@
     flex-direction:column;
     flex-wrap:wrap;
     background-color:black;
+    text-align: center;
   }
   #navbar{
-    text-align:center;
+    width:80vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
   }
   .nav-link{
     text-decoration:underline silver;
@@ -31,7 +36,6 @@
   }
   #welcome{
     color:white;
-    text-align:center;
   }
   #about{
     margin-top:5vh;
