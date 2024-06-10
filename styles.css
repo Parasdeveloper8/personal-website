@@ -5,7 +5,8 @@
     width:100vw;
     height:100vh;
     background-color:#0101;
-    overflow-x:hidden;
+    margin:0;
+    position: fixed;
   }
   #welcome-section{
     width:100vw;
