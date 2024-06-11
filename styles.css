@@ -6,7 +6,7 @@
     height:100vh;
     background-color:#0101;
     margin:0;
-    position: fixed;
+    overflow-x: hidden;
   }
   #welcome-section{
     width:100vw;
@@ -52,7 +52,7 @@
     border-radius:4vh;
     object-fit:cover;
   }
-  
+ 
   #info{
     font-family:sans-serif;
     color:white;
