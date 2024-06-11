@@ -121,6 +121,8 @@
     width:100vw;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
   }
   .i{
     width:20vw;
