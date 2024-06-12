@@ -27,10 +27,12 @@
     text-decoration:underline silver;
     color:silver;
     margin-right:10vw;
+    font-family:system-ui;
   }
   .nav-link:hover{
-    color:black;
+    color:rgb(107, 106, 106);
   }
+  
   #welcome{
     color:white;
   }
@@ -54,7 +56,7 @@
   }
  
   #info{
-    font-family:sans-serif;
+    font-style: italic;
     color:white;
     padding-left:5vw;
     padding-right:5vw;
@@ -128,3 +130,6 @@
     width:20vw;
     height:20vw;
   }
+#projects > p{
+  padding-left: 2.5vw;
+}
