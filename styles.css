@@ -17,7 +17,7 @@
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
-    background-color:black;
+    background-image:linear-gradient(to bottom , black,rgb(31, 28, 28),rgb(64, 55, 55));
     text-align: center;
   }
   #navbar{
